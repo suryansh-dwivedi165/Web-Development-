@@ -1,0 +1,16 @@
+* {
+  background-color: "Courier New";
+}
+
+h1 {
+  color: #1b74e4;
+}
+
+#search_btn {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  background-color: aqua;
+}
