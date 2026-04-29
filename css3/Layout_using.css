@@ -1,0 +1,22 @@
+.container {
+    height: 400px;
+    width: 400px;
+    font-size:50px;
+    border:2px solid lightgreen;
+    display: flex;
+    flex-wrap:wrap;
+    gap:40px;
+    margin-left:10px;
+    padding-left:20px;
+    padding-top:5px;
+}
+
+.child {
+    border-radius:15px;
+    height:100px;
+    width: 100px;
+    background-color: grey;
+    text-align:Center;
+    line-height: 2;
+    border:2px solid lightgreen;
+} 

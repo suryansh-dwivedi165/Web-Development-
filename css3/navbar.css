@@ -1,0 +1,20 @@
+header {
+    height: 50px;
+    width: 900px;
+    font-size: 24px;
+    background-color: pink;
+    border:2px solid black;
+}
+
+.child {
+    height: 50px;
+    width: 80px;
+} 
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 50px;
+    line-height: 0;
+} 
