@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 200px;
+        width: 200px;
+        background-color: #ffa511;
+        border-radius: 50%;
+        display: flex;
+        margin: auto;
+      }
+
+      .mouth {
+        height: 40px;
+        width: 90px;
+        background-color: brown;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        position: absolute;
+        top:45px;
+        transform: translate(55px, 70px);
+      } 
+
+      .eye {
+        height: 40px;
+        width: 40px;
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        top: 50px;
+        left: 30px;
+        margin-left: 20px;
+      }
+      .outer {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="outer">
+        <div class="eye"></div>
+        <div class="eye"></div>
+      </div>
+      <div class="mouth"></div>
+    </div>
+  </body>
+</html>
