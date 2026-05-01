@@ -1,0 +1,29 @@
+* {
+  background-color: #414141;
+  color: #fff;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration:underline;
+}
+.loader {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-top-color: aqua;
+  border: 15px solid rgb(235, 223, 223);
+  border-top-color: gold;
+  animation: animationTag 1s ease-in 1s infinite reverse;
+  margin: 150px auto;
+}
+
+@keyframes animationTag {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
